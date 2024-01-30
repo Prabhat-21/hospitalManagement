@@ -30,6 +30,7 @@ APIs implemented :
 7. POST "/api/patients/" ----------------------------------------------  Create Patient
 8. GET "/api/patients/{id}"-------------------------------------------- get patient by id
 9. POST "/api/hospitals/" --------------------------------------------- Create hospital
+    
 10.GET "/api/hospitals/{id}" ------------------------------------------ get hospital by Id.
 11 POST "/patients/{patientId}/admit" --------------------------------- Admits a patient into the system
 12 POST "/patients/{patientId}/discharge"------------------------------ Discharge a patient from the system
