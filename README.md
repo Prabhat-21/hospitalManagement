@@ -21,17 +21,28 @@ Entities that are used :
 
 APIs implemented : 
 
-1. POST "/api/signup" ------------------------------------------------signup for user
+1. POST "/api/signup" ------------------------------------------------Signup for user
+   
 2. POST "/api/login"  ------------------------------------------------login for user
+   
 3. POST "/api/rooms"  ------------------------------------------------  Create rooms
-4. GET "/api/rooms/{id}" ---------------------------------------------- get a room by Id
+   
+4. GET "/api/rooms/{id}" ---------------------------------------------- Get a room by Id
+   
 5. POST "/api/doctors/" -----------------------------------------------  Create doctor
-6. GET "/api/doctors/{id}" -------------------------------------------- get doctor by Id
+   
+6. GET "/api/doctors/{id}" -------------------------------------------- Get doctor by Id
+ 
 7. POST "/api/patients/" ----------------------------------------------  Create Patient
-8. GET "/api/patients/{id}"-------------------------------------------- get patient by id
+   
+8. GET "/api/patients/{id}"-------------------------------------------- Get patient by id
+   
 9. POST "/api/hospitals/" --------------------------------------------- Create hospital
     
-10.GET "/api/hospitals/{id}" ------------------------------------------ get hospital by Id.
+10.GET "/api/hospitals/{id}" ------------------------------------------ Get hospital by Id.
+
 11 POST "/patients/{patientId}/admit" --------------------------------- Admits a patient into the system
+
 12 POST "/patients/{patientId}/discharge"------------------------------ Discharge a patient from the system
+
 13 GET "/hospitals/{hospitalId}/admitted-patients"--------------------- Get all admitted patients in the hospitals
