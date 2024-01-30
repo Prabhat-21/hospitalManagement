@@ -37,12 +37,12 @@ APIs implemented :
    
 8. GET "/api/patients/{id}"-------------------------------------------- Get patient by id
    
-9. POST "/api/hospitals/" --------------------------------------------- Create hospital
+9.  POST "/api/hospitals/" --------------------------------------------- Create hospital
     
-10.GET "/api/hospitals/{id}" ------------------------------------------ Get hospital by Id.
+10. GET "/api/hospitals/{id}" ------------------------------------------ Get hospital by Id.
 
-11 POST "/patients/{patientId}/admit" --------------------------------- Admits a patient into the system
+11. POST "/patients/{patientId}/admit" --------------------------------- Admits a patient into the system
 
-12 POST "/patients/{patientId}/discharge"------------------------------ Discharge a patient from the system
+12. POST "/patients/{patientId}/discharge"------------------------------ Discharge a patient from the system
 
-13 GET "/hospitals/{hospitalId}/admitted-patients"--------------------- Get all admitted patients in the hospitals
+13. GET "/hospitals/{hospitalId}/admitted-patients"--------------------- Get all admitted patients in the hospitals
