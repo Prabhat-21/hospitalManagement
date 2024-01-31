@@ -19,11 +19,13 @@ Entities that are used :
 5. Admission
 6. Doctor
 
+It is assumed that concurrent transactions are not taking place. At one time, one update/save is taking place in the db.
+
 APIs implemented : 
 
-1. POST "/api/signup" ------------------------------------------------Signup for user
+1. POST "/api/signup" ------------------------------------------------  Signup for user
    
-2. POST "/api/login"  ------------------------------------------------login for user
+2. POST "/api/login"  ------------------------------------------------  Login for user
    
 3. POST "/api/rooms"  ------------------------------------------------  Create rooms
    
@@ -35,7 +37,7 @@ APIs implemented :
  
 7. POST "/api/patients/" ----------------------------------------------  Create Patient
    
-8. GET "/api/patients/{id}"-------------------------------------------- Get patient by id
+8. GET "/api/patients/{id}"--------------------------------------------  Get patient by id
    
 9.  POST "/api/hospitals/" --------------------------------------------- Create hospital
     
